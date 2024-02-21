@@ -4,9 +4,9 @@ baseURL = "/"
 
 defaultContentLanguage= "id"
 # Title of your website (required).
-title = "Hugoplate"
+title = "Aura Komputer"
 # Your theme name
-theme = "hugoplate"
+theme = "aurakomputer"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "Asia/Jakarta"
 # post pagination
@@ -141,6 +141,10 @@ lazy = true
 [[params.plugins.css]]
 link = "plugins/font-awesome/v6/icons.css"
 lazy = true
+[[params.plugins.css]]
+link = "plugins/aos/aos.css"
+lazy = false
+
 
 # JS Plugins
 [[params.plugins.js]]
@@ -170,3 +174,8 @@ lazy = true
 [[params.plugins.js]]
 link = "plugins/youtube-lite.js"
 lazy = true
+
+[[params.plugins.js]]
+link = "plugins/aos/aos.js"
+lazy = false
+

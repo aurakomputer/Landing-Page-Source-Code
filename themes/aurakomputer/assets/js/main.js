@@ -10,7 +10,7 @@
 
   dropdownMenuToggler.forEach((toggler) => {
     toggler?.addEventListener("click", (e) => {
-      e.target.closest('.nav-item').classList.toggle("active");
+      e.target.closest(".nav-item").classList.toggle("active");
     });
   });
 
@@ -32,5 +32,10 @@
         slidesPerView: 3,
       },
     },
+  });
+
+  AOS.init({
+    delay: 0.2,
+    duration: 800,
   });
 })();

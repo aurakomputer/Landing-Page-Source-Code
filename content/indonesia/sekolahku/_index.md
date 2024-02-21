@@ -1,9 +1,18 @@
 ---
-title: "Hey, I am John Doe!"
-meta_title: "About"
-description: "this is meta description"
-image: "/images/avatar.png"
-draft: false
----
+title: "SekolahKu - Sistem Informasi dan Aplikasi Pelayanan sekolah"
+meta_title: "SekolahKu - Sistem Informasi dan Aplikasi Pelayanan sekolah"
+description: "One stop solution untuk menyikapi tuntutan perubahan yang mengarah pada otomasi dan digitalisasi layanan sekolah"
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+# banner
+banner:
+  title: "Sistem Informasi dan Aplikasi Pelayanan sekolah"
+  content: "One stop solution untuk menyikapi tuntutan perubahan yang mengarah pada otomasi dan digitalisasi layanan sekolah"
+  image: "/sekolahku/banner.png"
+  buttons:
+    - icon: "fa fa-cloud-arrow-down"
+      label: "Download"
+      link: "/sekolahku/download"
+    - icon: "fa fa-list-check"
+      label: "Dokumentasi"
+      link: "https://aurakomputer.gitlab.io/docs/Sekolahku"
+---

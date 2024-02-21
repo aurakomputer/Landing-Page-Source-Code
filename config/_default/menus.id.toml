@@ -23,6 +23,11 @@ hasChildren = true
 
 [[main]]
 parent = "SekolahKu"
+name = "Apa itu Sekolahku ?"
+url = "sekolahku"
+
+[[main]]
+parent = "SekolahKu"
 name = "Download"
 url = "blog/"
 
