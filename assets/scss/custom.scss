@@ -1,1 +1,31 @@
 // Add your own custom styles here
+
+.clients-section {
+  // display: flex;
+  .client {
+    padding: 10px;
+    border-radius: 20px;
+
+    * {
+      transition: all 1s ease;
+    }
+
+    img {
+      height: 80px;
+      width: 100px;
+    }
+
+    img.logo {
+      display: none;
+    }
+
+    &:hover {
+      img.logo {
+        display: inline-block;
+      }
+      img.logo-alt {
+        display: none;
+      }
+    }
+  }
+}
