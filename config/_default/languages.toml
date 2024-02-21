@@ -1,0 +1,6 @@
+################ English language ##################
+[id]
+languageName = "Id"
+languageCode = "id"
+contentDir = "content/indonesia"
+weight = 1

@@ -1,0 +1,39 @@
+{
+  "main": [
+    {
+      "name": "WhatssApp",
+      "icon": "fab fa-whatsapp",
+      "link": "https://wa.me/6285161748582"
+    },
+    {
+      "name": "Telegram",
+      "icon": "fab fa-telegram",
+      "link": "https://t.me/HantamKoding"
+    },
+    {
+      "name": "Gmail",
+      "icon": "fa-regular fa-envelope",
+      "link": "mailto:hantamkoding@gmail.com"
+    },
+    {
+      "name": "Github",
+      "icon": "fab fa-github",
+      "link": "https://github.com/hantamkoding"
+    },
+    {
+      "name": "Gitlab",
+      "icon": "fab fa-gitlab",
+      "link": "https://gitlab.com/hantamkoding"
+    },
+    {
+      "name": "Twitter",
+      "icon": "fab fa-twitter",
+      "link": "https://twitter.com/MohamadSupangat"
+    },
+    {
+      "name": "Reddit",
+      "icon": "fab fa-reddit",
+      "link": "https://www.reddit.com/user/mohamad-supangat"
+    }
+  ]
+}
