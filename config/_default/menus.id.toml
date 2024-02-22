@@ -39,7 +39,7 @@ url = "contact/"
 [[main]]
 parent = "SekolahKu"
 name = "Faqs"
-url = "authors/"
+url = "sekolahku/index.html#faqs"
 
 [[main]]
 parent = "SekolahKu"
