@@ -7,14 +7,14 @@ description: "One stop solution untuk menyikapi tuntutan perubahan yang mengarah
 banner:
   title: "Sistem Informasi dan Aplikasi Pelayanan sekolah"
   content: "One stop solution untuk menyikapi tuntutan perubahan yang mengarah pada otomasi dan digitalisasi layanan sekolah"
-  image: "/sekolahku/banner.png"
+  image: "/sekolahku/landing.png"
   buttons:
     - icon: "fa fa-cloud-arrow-down"
       label: "Download"
       link: "/sekolahku/download"
-    - icon: "fa fa-list-check"
-      label: "Dokumentasi"
-      link: "https://aurakomputer.gitlab.io/docs/Sekolahku"
+    - icon: "fa-solid fa-up-right-from-square"
+      label: "Demo"
+      link: "https://sekolahku.aurakomputer.my.id/login"
 
   clients:
     - logo: "/images/clients/logo-smkmaarifnu1ajibarang.png"
@@ -26,6 +26,11 @@ banner:
       logo_alt: "/images/clients/logo-sman1ajibarang-alt.png"
       name: "SMA Negeri 1 Ajibarang"
       url: "https://sman1ajibarang.sch.id/"
+
+    - logo: "/images/clients/logo-perpus-sman1ajibarang.png"
+      logo_alt: "/images/clients/logo-perpus-sman1ajibarang-alt.png"
+      name: "Pustaka SMANA"
+      url: "https://perpus.sman1ajibarang.sch.id"
 
 features:
   - icon: "fa fa-mobile-alt"
