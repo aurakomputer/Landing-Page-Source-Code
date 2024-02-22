@@ -154,8 +154,8 @@
 
   <!-- ====== Faq Section Start -->
   <section
-    class="relative z-20 overflow-hidden bg-[#f3f4ff] pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
-    <div class="max-w-screen-xl mx-auto">
+    class="relative z-20 overflow-hidden bg-[#f3f4ff] pt-20 pb-12 lg:pt-[90px] lg:pb-[90px]">
+    <div class="container">
       <div class="flex flex-wrap">
         <div class="w-full px-4">
           <div class="mx-auto mb-[60px] max-w-[620px] text-center lg:mb-20">
@@ -177,27 +177,29 @@
 
       <div class="">
         <div class="grid lg:grid-cols-2 gap-5">
-          <div
-            v-for="(row, index) in faqs"
-            class="single-faq mb-8 w-full rounded-lg border border-[#F3F4FE] bg-white p-5 sm:p-8"
-            data-aos="fade-up">
-            <button class="faq-btn flex w-full items-center text-left">
-              <div
-                class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary">
-                <i class="mdi mdi-chevron-up icon fill-current"></i>
+          {{ range (where .Site.Pages "Type" "sekolahku_faqs") }}
+            <div
+              v-for="(row, index) in faqs"
+              class="single-faq mb-8 w-full rounded-lg border border-[#F3F4FE] bg-white p-5 sm:p-8"
+              data-aos="flip-left">
+              <button class="faq-btn flex w-full items-center text-left">
+                <div
+                  class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary">
+                  <i class="mdi mdi-chevron-up icon fill-current"></i>
+                </div>
+                <div class="w-full">
+                  <h4 class="text-base font-semibold text-black sm:text-lg">
+                    {{ .Title }}
+                  </h4>
+                </div>
+              </button>
+              <div class="faq-content hidden pl-[62px]">
+                <p class="py-3 text-base leading-relaxed text-body-color">
+                  {{ .Content }}
+                </p>
               </div>
-              <div class="w-full">
-                <h4 class="text-base font-semibold text-black sm:text-lg">
-                  {{ row.title }}
-                </h4>
-              </div>
-            </button>
-            <div class="faq-content hidden pl-[62px]">
-              <p
-                class="py-3 text-base leading-relaxed text-body-color"
-                v-html="row.content"></p>
             </div>
-          </div>
+          {{ end }}
         </div>
       </div>
     </div>

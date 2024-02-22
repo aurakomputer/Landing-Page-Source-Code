@@ -2,6 +2,13 @@
 (function () {
   "use strict";
 
+  // Animaton on Scroll
+  // ---------------------------------------
+  AOS.init({
+    delay: 0.2,
+    duration: 800,
+  });
+
   // Dropdown Menu Toggler For Mobile
   // ----------------------------------------
   const dropdownMenuToggler = document.querySelectorAll(
@@ -32,10 +39,5 @@
         slidesPerView: 3,
       },
     },
-  });
-
-  AOS.init({
-    delay: 0.2,
-    duration: 800,
   });
 })();
