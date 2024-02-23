@@ -10,7 +10,8 @@
           <div>
             <div>
               <div
-                class="relative overflow-hidden rounded-lg bg-gray-100 lg:col-span-4 transition-all border shadow h-[500px]">
+                class="relative overflow-hidden rounded-lg bg-gray-100 lg:col-span-4 transition-all border shadow h-[500px]"
+                data-aos="fade-right">
                 {{ with .Params.Images }}
                   <img
                     src="{{ index . 0 }}"
@@ -31,7 +32,8 @@
                       href="javascript:void(0)"
                       onclick=""
                       class="overflow-hidden rounded-lg bg-gray-100 images-preview hover:scale-110 transition-all border shadow h-[150px]"
-                      data-img="">
+                      data-img="{{ . }}"
+                      data-aos="fade-up">
                       <img
                         src="{{ . }}"
                         loading="lazy"
@@ -48,7 +50,7 @@
           <!-- content - start -->
           <div class="md:py-8">
             <!-- name - start -->
-            <div class="mb-2 md:mb-3">
+            <div class="mb-2 md:mb-3" data-aos="fade-left">
               <span class="mb-0.5 inline-block text-gray-500"
                 >{{ .Params.category }}</span
               >
@@ -64,7 +66,7 @@
             <!-- name - end -->
 
             <!-- rating - start -->
-            <div class="flex items-center gap-3">
+            <div class="flex items-center gap-3" data-aos="fade-up">
               <div
                 class="flex h-7 items-center gap-1 rounded-full bg-primary px-2 text-white">
                 <span class="text-sm">{{ $product.Rating }}</span>
