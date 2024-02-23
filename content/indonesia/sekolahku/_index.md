@@ -1,5 +1,6 @@
 ---
-title: "SekolahKu - Sistem Informasi dan Aplikasi Pelayanan sekolah"
+title: "SekolahKu"
+slug: "sekolahku"
 meta_title: "SekolahKu - Sistem Informasi dan Aplikasi Pelayanan sekolah"
 description: "One stop solution untuk menyikapi tuntutan perubahan yang mengarah pada otomasi dan digitalisasi layanan sekolah"
 

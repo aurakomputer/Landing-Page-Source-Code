@@ -34,7 +34,7 @@ url = "blog/"
 [[main]]
 parent = "SekolahKu"
 name = "Dokumentasi"
-url = "contact/"
+url = "https://aurakomputer.gitlab.io/docs/Sekolahku/"
 
 [[main]]
 parent = "SekolahKu"
@@ -43,8 +43,8 @@ url = "sekolahku/index.html#faqs"
 
 [[main]]
 parent = "SekolahKu"
-name = "Modules"
-url = "authors/"
+name = "Daftar Produk"
+url = "sekolahku/products"
 
 
 # footer menu

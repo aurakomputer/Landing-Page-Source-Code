@@ -1,0 +1,48 @@
+---
+layout: sekolahku_module
+title: Point Pelanggaran Siswa
+category: Aplikasi
+price: Rp. 300.000 - Rp. 35.000.000
+rating: 5
+description: "Mempermudah pencatatan pelanggaran siswa, memantau secara realtime dan riwayat yang mudah di lacak"
+thumbnail: /sekolahku/assets/img/gallery/7.png
+images:
+  - "/sekolahku/assets/img/gallery/7.png"
+  - "/sekolahku/assets/img/point-pelanggaran/Screen Shot 2023-03-20 at 15.19.56.png"
+  - "/sekolahku/assets/img/point-pelanggaran/Screen Shot 2023-03-20 at 15.20.12.png"
+  - "/sekolahku/assets/img/point-pelanggaran/Screen Shot 2023-03-20 at 15.20.18.png"
+  - "/sekolahku/assets/img/point-pelanggaran/Screen Shot 2023-03-20 at 15.20.29.png"
+
+prices:
+  - name: Paket Hemat
+    qty: 1 Bulan
+    price: Rp. 300.000
+  - name: Paket Super
+    qty: 1 Tahun
+    price: Rp. 3.500.000
+  - name: Paket Lifetime
+    qty: lifetime
+    price: Rp. 20.000.000
+    featured: true
+  - name: Source Code
+    price: Rp. 35.000.000
+features:
+  - title: Dashboard informasi lengkap
+    body:
+      Mudahnya mengetahui info dengan cepat dengan dashboard informasi menarik dan
+      mudah di baca
+  - title: Kelola kategori pelanggaran
+    body:
+      "Database kategori pelanggaran yang mudah diatur, dan di sesuaikan sesuai
+      kriteria masing masing "
+  - title: Banyak cara penginputan
+    body:
+      Pelanggaran bisa diinputkan oleh guru secara manual / dengan cara upload dari
+      excel, dan juga siswa dapat scan qrcode untuk mengkonfirmasi input pelanggan
+
+---
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+no sea takimata sanctus est Lorem ipsum dolor sit amet.
