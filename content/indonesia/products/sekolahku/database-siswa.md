@@ -1,14 +1,15 @@
 ---
-layout: sekolahku_module
 title: Database Siswa
-category: Aplikasi
+tags:
+  - "sekolahku"
+category: "Aplikasi"
 rating: 5
 description: Solusi terbaik untuk menyimpan, mengakses dan memanage data siswa secara efisien, termasuk data kenaikan kelas
-thumbnail: /sekolahku/assets/img/gallery/2.png
+thumbnail: /sekolahku/galleries/2.png
 images:
-  - "/sekolahku/assets/img/gallery/2.png"
-  - "/sekolahku/assets/img/gallery/3.png"
-  - "/sekolahku/assets/img/gallery/4.png"
+  - "/sekolahku/galleries/2.png"
+  - "/sekolahku/galleries/3.png"
+  - "/sekolahku/galleries/4.png"
 
 free: true
 

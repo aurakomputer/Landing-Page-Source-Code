@@ -1,14 +1,15 @@
 ---
-layout: sekolahku_module
 title: Pendaftaran Siswa Baru + Daftar Ulang
-category: Aplikasi
+tags:
+  - "sekolahku"
+category: "Aplikasi"
 price: Rp. 300.000 - Rp. 35.000.000
 rating: 5
 description: "Pengisian formulir online, verifikasi dokumen, dan konfirmasi status pendaftaran secara real-time"
-thumbnail: /sekolahku/assets/img/gallery/6.png
+thumbnail: /sekolahku/galleries/6.png
 images:
-  - /sekolahku/assets/img/gallery/6.png
-  - /sekolahku/assets/img/gallery/5.png
+  - /sekolahku/galleries/6.png
+  - /sekolahku/galleries/5.png
 
 prices:
   - name: Paket Hemat

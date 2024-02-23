@@ -1,13 +1,14 @@
 ---
-layout: sekolahku_module
 title: Point Pelanggaran Siswa
-category: Aplikasi
+tags:
+  - "sekolahku"
+category: "Aplikasi"
 price: Rp. 300.000 - Rp. 35.000.000
 rating: 5
 description: "Mempermudah pencatatan pelanggaran siswa, memantau secara realtime dan riwayat yang mudah di lacak"
-thumbnail: /sekolahku/assets/img/gallery/7.png
+thumbnail: /sekolahku/galleries/7.png
 images:
-  - "/sekolahku/assets/img/gallery/7.png"
+  - "/sekolahku/galleries/7.png"
   - "/sekolahku/assets/img/point-pelanggaran/Screen Shot 2023-03-20 at 15.19.56.png"
   - "/sekolahku/assets/img/point-pelanggaran/Screen Shot 2023-03-20 at 15.20.12.png"
   - "/sekolahku/assets/img/point-pelanggaran/Screen Shot 2023-03-20 at 15.20.18.png"
@@ -39,7 +40,6 @@ features:
     body:
       Pelanggaran bisa diinputkan oleh guru secara manual / dengan cara upload dari
       excel, dan juga siswa dapat scan qrcode untuk mengkonfirmasi input pelanggan
-
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
