@@ -9,10 +9,10 @@ description: "Mempermudah pencatatan pelanggaran siswa, memantau secara realtime
 thumbnail: /sekolahku/galleries/7.png
 images:
   - "/sekolahku/galleries/7.png"
-  - "/sekolahku/assets/img/point-pelanggaran/Screen Shot 2023-03-20 at 15.19.56.png"
-  - "/sekolahku/assets/img/point-pelanggaran/Screen Shot 2023-03-20 at 15.20.12.png"
-  - "/sekolahku/assets/img/point-pelanggaran/Screen Shot 2023-03-20 at 15.20.18.png"
-  - "/sekolahku/assets/img/point-pelanggaran/Screen Shot 2023-03-20 at 15.20.29.png"
+  - "/sekolahku/point-pelanggaran/Screen Shot 2023-03-20 at 15.19.56.png"
+  - "/sekolahku/point-pelanggaran/Screen Shot 2023-03-20 at 15.20.12.png"
+  - "/sekolahku/point-pelanggaran/Screen Shot 2023-03-20 at 15.20.18.png"
+  - "/sekolahku/point-pelanggaran/Screen Shot 2023-03-20 at 15.20.29.png"
 
 prices:
   - name: Paket Hemat
