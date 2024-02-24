@@ -173,24 +173,28 @@
 
     <div class="">
       <div class="grid lg:grid-cols-2 gap-5">
-        {{ range (where .Site.Pages "Type" "sekolahku_faqs") }}
+        {{ range $index, $faq := (where .Site.Pages "Type" "sekolahku_faqs") }}
           <div
             class="single-faq mb-8 w-full rounded-lg border border-[#F3F4FE] bg-white p-5 sm:p-8"
             data-aos="flip-left">
-            <button class="faq-btn flex w-full items-center text-left">
+            <button
+              class="hs-collapse-toggle flex w-full items-center text-left"
+              data-hs-collapse="#faq-collapse-{{ $index }}">
               <div
                 class="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary">
                 <i class="fa fa-chevron-up icon fill-current"></i>
               </div>
               <div class="w-full">
                 <h4 class="text-base font-semibold text-black sm:text-lg">
-                  {{ .Title }}
+                  {{ $faq.Title }}
                 </h4>
               </div>
             </button>
-            <div class="faq-content hidden pl-[62px]">
+            <div
+              id="faq-collapse-{{ $index }}"
+              class="hs-collapse hidden pl-[62px] transition-[height]">
               <p class="py-3 text-base leading-relaxed text-body-color">
-                {{ .Content }}
+                {{ $faq.Content }}
               </p>
             </div>
           </div>
