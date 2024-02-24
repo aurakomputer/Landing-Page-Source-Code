@@ -20,7 +20,7 @@ prices:
     price: Rp. 3.500.000
   - name: Paket Lifetime
     qty: lifetime
-    price: Rp. 20.000.000
+    price: Rp. 15.000.000
     featured: true
   - name: Source Code
     price: Rp. 35.000.000

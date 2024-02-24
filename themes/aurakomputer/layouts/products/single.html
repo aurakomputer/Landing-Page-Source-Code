@@ -91,9 +91,7 @@
 
             <!-- section price -->
 
-            {% assign app_title = "Sekolahku" | append: ' - ' | append:
-            page.title %} {% if page.prices %} {% include prices.html
-            name=app_title prices=page.prices %} {% endif %}
+            <div class="mt-3">{{ partial "components/prices-card" . }}</div>
           </div>
           <!-- content - end -->
         </div>
