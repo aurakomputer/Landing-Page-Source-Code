@@ -18,7 +18,7 @@
 
 
 <!-- main script -->
-{{ $scripts = $scripts | append (resources.Get "js/main.js") }}
+{{ $scripts = $scripts | append (resources.Get "js/main.js" | js.Build | minify | fingerprint) }}
 {{ $scripts = $scripts | resources.Concat "js/script.js" }}
 
 {{ $scriptsLazy = $scriptsLazy | resources.Concat "js/script-lazy.js" }}
