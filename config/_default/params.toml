@@ -27,6 +27,9 @@ custom_script = ""
 # copyright
 copyright = "2020 [Aura Komputer](https://s.id/aurakomputer)"
 
+[whatsapp]
+phone_number = 6285161748582
+
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
 [preloader]
@@ -44,7 +47,7 @@ link = "https://s.id/aurakomputer"
 [search]
 enable = true
 primary_color = "#121212"
-include_sections = ["blog"]
+include_sections = ["products"]
 show_image = true
 show_description = true
 show_tags = true
@@ -54,9 +57,9 @@ show_categories = true
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
+keywords = ["Aplikasi Desktop", "Aplikasi Website", "Jasa Pembuatan Aplikasi", "Penjualan Aplikasi", "Aplikasi Murh"]
 description = "Hugo & Tailwindcss Starter"
-author = "zeon.studio"
+author = "Aura Komputer"
 image = "images/og-image.png"
 
 

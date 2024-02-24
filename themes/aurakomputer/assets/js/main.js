@@ -96,4 +96,19 @@ import "preline/dist/preline.js";
   }
 
   const selectPaket = document.getElementsByClassName("selectPaket");
+
+  // form checkout button
+  window.checkout = (formId) => {
+    const formEl = document.getElementById(formId);
+    const formData = new FormData(formEl);
+
+    const message = `Hai, saya tertarik dengan \n${formData.get("category")} ${formData.get("product")}\n ${formData.get("variant")} ${formData.get("qty")}`;
+    window.open(
+      "https://api.whatsapp.com/send?phone=" +
+        formData.get("whatsapp_number") +
+        "&text=" +
+        message,
+      "_blank",
+    );
+  };
 })();
