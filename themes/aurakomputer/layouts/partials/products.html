@@ -1,9 +1,7 @@
 {{ partial "page-header" . }}
-
-
-<section class="sectiion">
+<section class="py-8">
   <div class="container">
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
       {{ $t := slice "sekolahku" }}
       {{ range where .Site.Pages ".Params.tags" "intersect" $t }}
         <a

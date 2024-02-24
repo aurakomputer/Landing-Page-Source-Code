@@ -79,7 +79,19 @@
     return (-c / 2) * (t * (t - 2) - 1) + b;
   };
 
+  // back to top
+  // --------------------------------------------------
   document.querySelector(".back-to-top").onclick = () => {
     scrollTo(document.documentElement);
   };
+
+  // image preview picker
+  // --------------------------------------------------
+  for (const el of document.getElementsByClassName("images-preview")) {
+    el.onclick = (event) => {
+      document.getElementById("image-preview").src = el.dataset.img;
+    };
+  }
+
+  const selectPaket = document.getElementsByClassName("selectPaket");
 })();

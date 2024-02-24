@@ -28,7 +28,7 @@ if (theme.fonts.font_family.secondary) {
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./hugo_stats.json"],
+  content: ["./hugo_stats.json", "node_modules/preline/dist/*.js"],
   safelist: [{ pattern: /^swiper-/ }],
   darkMode: "class",
   theme: {
@@ -90,6 +90,8 @@ module.exports = {
   plugins: [
     require("@tailwindcss/typography"),
     require("@tailwindcss/forms"),
+    require("preline/plugin"),
+
     require("tailwind-bootstrap-grid")({
       generateContainer: false,
       gridGutterWidth: "2rem",
