@@ -45,10 +45,10 @@
             Teknologi yang kami pakai dalam setiap produk kami
           </p>
 
-          <ul class="d-flex" id="technologies">
+          <ul class="flex gap-1" id="technologies">
             {{ range $technology := .Params.Technologies }}
               <li>
-                {{ partial "image" (dict "Src" $technology "Alt" $technology "Class" "max-h-[10px]" "DisplayXL" "10px") }}
+                {{ partial "image" (dict "Src" $technology "Alt" $technology "Class" "max-h-[2em] max-w-[auto]") }}
               </li>
             {{ end }}
           </ul>
