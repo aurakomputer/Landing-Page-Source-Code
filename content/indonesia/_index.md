@@ -50,4 +50,13 @@ features:
       enable: false
       label: ""
       link: ""
+
+technologies:
+  - "/images/icons/Mikrotik-logo.png"
+  - "/images/icons/html5.png"
+  - "/images/icons/css3.png"
+  - "/images/icons/jquery.png"
+  - "/images/icons/vue.png"
+  - "/images/icons/laravel.png"
+  - "/images/icons/quasar.png"
 ---

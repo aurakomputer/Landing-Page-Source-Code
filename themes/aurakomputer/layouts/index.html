@@ -3,7 +3,7 @@
   {{ with .Params.banner }}
     <section class="section hero-wrapper pt-14">
       <div class="container">
-        <div class="row justify-center">
+        <div class="row justify-between">
           <div class="lg:col-7 md:col-9 mb-8 text-left">
             <h1 class="mb-4 text-h3 lg:text-h1 text-white">
               {{ .title | markdownify }}
@@ -34,6 +34,28 @@
   {{ end }}
   <!-- /Banner -->
 
+  <!-- teknologi -->
+
+  <section class="section-sm">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="mb-4">Teknologi</h2>
+          <p class="mb-8 text-lg">
+            Teknologi yang kami pakai dalam setiap produk kami
+          </p>
+
+          <ul class="d-flex" id="technologies">
+            {{ range $technology := .Params.Technologies }}
+              <li>
+                {{ partial "image" (dict "Src" $technology "Alt" $technology "Class" "max-h-[10px]" "DisplayXL" "10px") }}
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Features -->
   {{ range $i, $e:= .Params.features }}
     <section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
