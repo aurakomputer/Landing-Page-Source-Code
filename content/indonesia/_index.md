@@ -21,6 +21,23 @@ features:
     icon: "fa fa-square-arrow-up-right"
     content: "Aura komputer sedang berkembang untuk terus maju dan bersaing di dalam era digitalisasi"
 
+about:
+  title: "Tentang Kami"
+  caption: "Kami berkomitmen untuk menyajikan teknologi modern kepada setiap klien"
+  content: "Aura Komputer melayani beberapa jasa di bidang  IT (Teknologi), diantaranya Software Development, Instalasi dan Maintenance Aplikasi / Server"
+  services:
+    - title: "Software Development"
+      icon: "fab fa-firefox-browser"
+      content: "Penjualan dan Pembuatan aplikasi web, mobile dan komputer"
+
+    - title: "Instalasi"
+      icon: "fa fa-file-zipper"
+      content: "Memasang dan menjalankan sebuah aplikasi baik secara offline dan offline"
+
+    - title: "Maintenance"
+      icon: "fa fa-server"
+      content: "Memperbaiki, / "
+
 technologies:
   - "/images/icons/Mikrotik-logo.png"
   - "/images/icons/html5.png"
