@@ -38,6 +38,10 @@ about:
       icon: "fa fa-server"
       content: "Memperbaiki, / "
 
+author:
+  name: "Mohamad Supangat"
+  caption: "Aura Komputer didirikan tahun 2018 bermula dari permintaan pertama salah satu klien kami untuk membuatkan sebuah aplikasi yang sampai sekarang menjadi basic fitur yaitu aplikasi SekolahKu"
+
 technologies:
   - "/images/icons/Mikrotik-logo.png"
   - "/images/icons/html5.png"
