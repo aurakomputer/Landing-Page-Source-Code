@@ -181,3 +181,5 @@ lazy = true
 link = "plugins/aos/aos.js"
 lazy = false
 
+[[params.plugins.js]]
+link = "plugins/lazy-loader.js"
