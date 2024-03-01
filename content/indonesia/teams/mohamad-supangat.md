@@ -1,7 +1,7 @@
 ---
 title: Mohamad Supangat
 email: moha.supangat@gmail.com
-image: "/images/avatar.png"
+image: "https://thumbs2.imgbox.com/b3/f6/ZGrvPbXw_t.jpg"
 description: this is meta description
 social:
   - name: github
@@ -18,4 +18,4 @@ social:
     link: https://www.reddit.com/user/mohamad-supangat
 ---
 
-Tantangan adalah sebuah penyemangat alami dalam sebuah kehidupan, tanta tantangan seseorang akan menjadi malas dan tidak mempunyai sebuah tujuan
+Tantangan adalah sebuah penyemangat alami dalam sebuah kehidupan, tanpa tantangan seseorang akan menjadi malas dan tidak mempunyai sebuah tujuan

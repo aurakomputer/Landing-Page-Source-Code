@@ -44,6 +44,7 @@ author:
   caption: "Aura Komputer didirikan tahun 2018 bermula dari permintaan pertama salah satu klien kami untuk membuatkan sebuah aplikasi yang sampai sekarang menjadi basic fitur yaitu aplikasi SekolahKu, dengan ini semoga Aura Komputer terus berkembang dan berguna bagi negara amin"
 
   images:
+    - https://thumbs2.imgbox.com/b3/f6/ZGrvPbXw_t.jpg
     - https://thumbs2.imgbox.com/57/2a/Z3RjcVCq_t.jpg
 
   button:

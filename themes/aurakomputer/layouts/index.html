@@ -128,7 +128,8 @@
   <section class="section-sm">
     <div class="container max-w-screen-lg">
       <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
-        <div class="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
+        <div
+          class="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2 rounded-xl overflow-hidden">
           {{ range $image := $author.images }}
             <img
               alt="{{ $author.name }}"
