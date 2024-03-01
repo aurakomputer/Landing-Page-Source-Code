@@ -1,7 +1,7 @@
 {{ define "main" }}
   <!-- Banner -->
   {{ with .Params.banner }}
-    <section class="section hero-wrapper pt-14">
+    <section class="section hero-wrapper pt-14 bg-gradient-primary text-white">
       <div class="container max-w-screen-lg">
         <div class="row justify-between" data-aos="fade-up">
           <div class="lg:col-7 md:col-9 mb-8 text-left">
@@ -103,7 +103,7 @@
   </section>
 
   <!-- teknologi -->
-  <section class="section-sm" data-aos="fade-right">
+  <section class="section-sm bg-gr" data-aos="fade-right">
     <div class="container max-w-screen-lg">
       <div class="row">
         <div class="col">
@@ -132,12 +132,15 @@
           class="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2 rounded-xl overflow-hidden">
           {{ range $image := $author.images }}
             <img
+              data-aos="fade-right"
               alt="{{ $author.name }}"
               src="{{ $image }}"
               class="h-40 w-full object-cover sm:h-56 md:h-full" />
           {{ end }}
         </div>
-        <div class="bg-primary p-8 md:p-12 lg:px-16 lg:py-24 rounded-lg">
+        <div
+          class="bg-primary p-8 md:p-12 lg:px-16 lg:py-24 rounded-lg"
+          data-aos="fade-up">
           <div class="mx-auto max-w-xl text-left">
             <span class="text-2xl font-bold text-white md:text-3xl">
               {{ $author.name }}

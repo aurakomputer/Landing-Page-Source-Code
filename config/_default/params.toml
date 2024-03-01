@@ -25,7 +25,7 @@ contact_form_action = "#" # contact form works with [https://airform.io/] or [ht
 google_tag_manager = "" # example: G-XXXXXXXXXX
 custom_script = ""
 # copyright
-copyright = "2020 [Aura Komputer](https://s.id/aurakomputer)"
+copyright = "Aura Komputer - Copyright 2023 &copy; All rights Reserved."
 
 [whatsapp]
 phone_number = 6285161748582

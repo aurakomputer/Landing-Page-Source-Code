@@ -4,6 +4,17 @@ import "preline/dist/preline.js";
 (function () {
   "use strict";
 
+  window.onscroll = function () {
+    const backToTop = document.querySelector(".back-to-top");
+    if (
+      document.body.scrollTop > 50 ||
+      document.documentElement.scrollTop > 50
+    ) {
+      backToTop.style.display = "flex";
+    } else {
+      backToTop.style.display = "none";
+    }
+  };
   // Animaton on Scroll
   // ---------------------------------------
   AOS.init({

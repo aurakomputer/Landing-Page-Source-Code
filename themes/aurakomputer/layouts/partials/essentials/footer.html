@@ -1,15 +1,17 @@
 <footer class="bg-theme-light dark:bg-darkmode-theme-light">
   <div class="container">
     <div class="row items-center py-10">
-      <div class="lg:col-3 mb-8 text-center lg:mb-0 lg:text-left">
+      <div class="lg:col-4 mb-8 text-center lg:mb-0 lg:text-left">
         <!-- navbar brand/logo -->
-        <a
-          class="navbar-brand inline-block"
-          href="{{ site.Home.RelPermalink }}">
+        <a class="inline-block" href="{{ site.Home.RelPermalink }}">
           {{ partial "logo" }}
         </a>
+
+        <div class="text-sm mt-2 font-mono">
+          Menuju era digitalisasi bersama Aura Komputer
+        </div>
       </div>
-      <div class="lg:col-6 mb-8 text-center lg:mb-0">
+      <div class="lg:col-4 mb-8 text-center lg:mb-0">
         <ul>
           {{ range site.Menus.footer }}
             <li class="m-3 inline-block">
@@ -30,7 +32,7 @@
           {{ end }}
         </ul>
       </div>
-      <div class="lg:col-3 mb-8 text-center lg:mb-0 lg:mt-0 lg:text-right">
+      <div class="lg:col-4 mb-8 text-center lg:mb-0 lg:mt-0 lg:text-right">
         <ul class="social-icons">
           {{ range site.Data.social.main }}
             <li>
@@ -47,8 +49,10 @@
       </div>
     </div>
   </div>
-  <div class="border-border dark:border-darkmode-border border-t py-7">
-    <div class="text-light dark:text-darkmode-light container text-center">
+  <div
+    class="border-border dark:border-darkmode-border border-t py-2 bg-primary">
+    <div
+      class="text-xs dark:text-darkmode-light text-white container text-center">
       <p>
         {{ site.Params.copyright | markdownify }}
       </p>
@@ -56,7 +60,7 @@
   </div>
 
   <button
-    class="back-to-top fixed bottom-8 right-8 z-50 rounded-full bg-primary hover:bg-blue-600 text-white w-[2em] h-[2em] shadow-2xl flex justify-center items-center text-[25px]">
+    class="back-to-top fixed bottom-8 right-8 z-50 rounded-full bg-primary hover:bg-blue-600 text-white w-[2em] h-[2em] shadow-2xl hidden justify-center items-center text-[25px]">
     <i class="fa fa-chevron-up"></i>
   </button>
 </footer>
