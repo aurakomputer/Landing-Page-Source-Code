@@ -30,7 +30,7 @@ url = "sekolahku"
 [[main]]
 parent = "SekolahKu"
 name = "Download"
-url = "blog/"
+url = "/sekolahku/download/"
 
 [[main]]
 parent = "SekolahKu"
