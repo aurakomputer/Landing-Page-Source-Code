@@ -90,8 +90,6 @@ module.exports = {
   plugins: [
     require("@tailwindcss/typography"),
     require("@tailwindcss/forms"),
-    require("preline/plugin"),
-
     require("tailwind-bootstrap-grid")({
       generateContainer: false,
       gridGutterWidth: "2rem",
@@ -103,5 +101,6 @@ module.exports = {
         5: "3rem",
       },
     }),
+    require("preline/plugin"),
   ],
 };

@@ -153,6 +153,10 @@ lazy = false
 link = "https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"
 lazy = false
 [[params.plugins.js]]
+link = "https://cdn.jsdelivr.net/npm/preline@2.0.3/dist/preline.min.js"
+lazy = true
+
+[[params.plugins.js]]
 link = "js/search.js"
 lazy = false
 [[params.plugins.js]]
