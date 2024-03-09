@@ -150,6 +150,10 @@ lazy = false
 
 # JS Plugins
 [[params.plugins.js]]
+link = "plugins/aos/aos.js"
+lazy = false
+
+[[params.plugins.js]]
 link = "js/search.js"
 lazy = false
 [[params.plugins.js]]
@@ -177,9 +181,6 @@ lazy = true
 link = "plugins/youtube-lite.js"
 lazy = true
 
-[[params.plugins.js]]
-link = "plugins/aos/aos.js"
-lazy = false
 
-[[params.plugins.js]]
-link = "plugins/lazy-loader.js"
+# [[params.plugins.js]]
+# link = "plugins/lazy-loader.js"

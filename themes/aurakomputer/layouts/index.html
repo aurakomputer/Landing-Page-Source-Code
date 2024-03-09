@@ -127,9 +127,8 @@
   {{ $author := .Params.Author }}
   <section class="section-sm">
     <div class="container max-w-screen-lg">
-      <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
-        <div
-          class="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2 rounded-xl overflow-hidden">
+      <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+        <div class="rounded-xl overflow-hidden col-span-1">
           {{ range $image := $author.images }}
             <img
               data-aos="fade-right"
@@ -139,7 +138,7 @@
           {{ end }}
         </div>
         <div
-          class="bg-primary p-8 md:p-12 lg:px-16 lg:py-24 rounded-lg"
+          class="bg-primary p-8 md:p-12 lg:px-16 lg:py-24 rounded-lg col-span-2"
           data-aos="fade-up">
           <div class="mx-auto max-w-xl text-left">
             <span class="text-2xl font-bold text-white md:text-3xl">
