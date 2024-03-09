@@ -41,8 +41,3 @@ features:
       Pelanggaran bisa diinputkan oleh guru secara manual / dengan cara upload dari
       excel, dan juga siswa dapat scan qrcode untuk mengkonfirmasi input pelanggan
 ---
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-no sea takimata sanctus est Lorem ipsum dolor sit amet.

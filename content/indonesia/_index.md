@@ -6,8 +6,8 @@ banner:
   image: "/images/banner.svg"
   button:
     enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/hugoplate"
+    label: "Kontak Kami "
+    link: "https://s.id/aurakomputer"
 
 features:
   - title: "Quality Drive"
@@ -45,7 +45,6 @@ author:
 
   images:
     - https://thumbs2.imgbox.com/b3/f6/ZGrvPbXw_t.jpg
-    - https://thumbs2.imgbox.com/57/2a/Z3RjcVCq_t.jpg
 
   button:
     label: "Lihat Profil"

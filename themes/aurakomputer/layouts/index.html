@@ -65,11 +65,13 @@
   </section>
 
   {{ $about := .Params.About }}
-  <section class="section-sm">
+  <section class="section-sm" id="services">
     <div class="container max-w-screen-lg">
       <div
-        class="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
-        <div class="mx-auto max-w-lg text-left lg:mx-0" data-aos="fade-right">
+        class="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:items-center lg:gap-x-16">
+        <div
+          class="mx-auto max-w-lg text-left lg:mx-0 lg:col-span-1"
+          data-aos="fade-right">
           <h2 class="text-3xl font-bold sm:text-4xl">{{ $about.title }}</h2>
 
           <p class="mt-4 text-black font-semibold">
@@ -81,7 +83,8 @@
           </p>
         </div>
 
-        <div class="grid grid-cols-2 gap-2 justify-center items-center">
+        <div
+          class="grid grid-cols-2 lg:grid-cols-3 gap-2 justify-center items-center lg:col-span-2">
           {{ range $i, $e:= $about.services }}
             <div
               class="rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring text-center"
@@ -127,9 +130,8 @@
   {{ $author := .Params.Author }}
   <section class="section-sm">
     <div class="container max-w-screen-lg">
-      <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
-        <div
-          class="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2 rounded-xl overflow-hidden">
+      <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+        <div class="rounded-xl overflow-hidden col-span-1">
           {{ range $image := $author.images }}
             <img
               data-aos="fade-right"
@@ -139,7 +141,7 @@
           {{ end }}
         </div>
         <div
-          class="bg-primary p-8 md:p-12 lg:px-16 lg:py-24 rounded-lg"
+          class="bg-primary p-8 md:p-12 lg:px-16 lg:py-24 rounded-lg col-span-2"
           data-aos="fade-up">
           <div class="mx-auto max-w-xl text-left">
             <span class="text-2xl font-bold text-white md:text-3xl">

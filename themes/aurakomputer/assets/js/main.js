@@ -1,6 +1,4 @@
 // main script
-import "preline/dist/preline.js";
-
 (function () {
   "use strict";
 

@@ -7,6 +7,17 @@ url = "/"
 weight = 1
 
 [[main]]
+name = "Layanan"
+url = "/#services"
+weight = 2
+
+[[main]]
+name = "Produk"
+url = "/products"
+weight = 3
+
+
+[[main]]
 weight = 4
 name = "SekolahKu"
 hasChildren = true
@@ -19,7 +30,7 @@ url = "sekolahku"
 [[main]]
 parent = "SekolahKu"
 name = "Download"
-url = "blog/"
+url = "/sekolahku/download/"
 
 [[main]]
 parent = "SekolahKu"

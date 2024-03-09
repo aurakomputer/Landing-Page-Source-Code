@@ -42,104 +42,6 @@
           </div>
         </div>
       </button>
-
-      <div
-        id="checkout-modal-{{ $index }}"
-        class="hs-overlay hidden size-full fixed top-0 start-0 z-[80] overflow-x-hidden overflow-y-auto pointer-events-none">
-        <div
-          class="hs-overlay-open:mt-7 hs-overlay-open:opacity-100 hs-overlay-open:duration-500 mt-0 opacity-0 ease-out transition-all sm:max-w-lg sm:w-full m-3 sm:mx-auto h-[calc(100%-3.5rem)] min-h-[calc(100%-3.5rem)] flex items-center">
-          <div
-            class="flex flex-col bg-white border shadow-sm rounded-xl pointer-events-auto dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
-            <div
-              class="flex justify-between items-center py-3 px-4 border-b dark:border-gray-700">
-              <h3 class="font-bold text-gray-800 dark:text-white">Checkout</h3>
-              <button
-                type="button"
-                class="flex justify-center items-center size-7 text-sm font-semibold rounded-full border border-transparent text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                data-hs-overlay="#checkout-modal-{{ $index }}">
-                <span class="sr-only">Close</span>
-                <i class="fa fa-close"></i>
-              </button>
-            </div>
-            <form
-              action="#"
-              class="space-y-4 p-4 overflow-y-scroll"
-              style="max-height: 70vh"
-              id="checkout-form-{{ $index }}">
-              <input
-                type="hidden"
-                name="whatsapp_number"
-                value="{{ site.Params.whatsapp.phone_number }}" />
-              <div class="form-group">
-                <label for="category">Jenis Produk</label>
-                <input
-                  name="category"
-                  type="text"
-                  class="form-input"
-                  readonly=""
-                  value="{{ $product.Category }}" />
-              </div>
-
-              <div class="form-group">
-                <label for="product">Nama Produk</label>
-                <input
-                  name="product"
-                  type="text"
-                  class="form-input"
-                  readonly=""
-                  value="{{ $product.Title }}" />
-              </div>
-
-              <div class="form-group">
-                <label for="variant">Varian</label>
-                <input
-                  name="variant"
-                  type="text"
-                  class="form-input"
-                  readonly=""
-                  value="{{ $price.name }}" />
-              </div>
-
-              <div class="form-group">
-                <label for="qty">Qty</label>
-                <input
-                  name="qty"
-                  type="text"
-                  class="form-input"
-                  readonly=""
-                  value="{{ $price.qty }}" />
-              </div>
-
-              <div class="form-group">
-                <label for="price">Harga</label>
-                <input
-                  name="price"
-                  type="text"
-                  class="form-input"
-                  readonly=""
-                  value="{{ .price }}" />
-              </div>
-            </form>
-
-            <div
-              class="flex justify-end items-center gap-x-2 py-3 px-4 border-t dark:border-gray-700">
-              <button
-                type="button"
-                class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-                data-hs-overlay="#checkout-modal-{{ $index }}">
-                Tutup
-              </button>
-              <button
-                type="button"
-                onclick="checkout('checkout-form-{{ $index }}')"
-                class="py-2 px-3 inline-flex items-center gap-x-3 text-sm font-semibold rounded-lg border border-transparent bg-green-600 text-white hover:bg-green-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
-                <i class="fab fa-whatsapp"></i>
-                Checkout via WhatsApp
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
     {{ end }}
   </div>
 
@@ -152,3 +54,156 @@
     </a>
   </div>
 </div>
+
+{{ range $index, $price := .Params.Prices }}
+  <div
+    id="checkout-modal-{{ $index }}"
+    class="hs-overlay hidden size-full fixed top-0 start-0 z-[80] overflow-x-hidden overflow-y-auto pointer-events-none">
+    <div
+      class="hs-overlay-open:mt-7 hs-overlay-open:opacity-100 hs-overlay-open:duration-500 mt-0 opacity-0 ease-out transition-all sm:max-w-lg sm:w-full m-3 sm:mx-auto h-[calc(100%-3.5rem)] min-h-[calc(100%-3.5rem)] flex items-center">
+      <div
+        class="flex flex-col bg-white border shadow-sm rounded-xl pointer-events-auto dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+        <div
+          class="flex justify-between items-center py-3 px-4 border-b dark:border-gray-700">
+          <h3 class="font-bold text-gray-800 dark:text-white">Checkout</h3>
+          <button
+            type="button"
+            class="flex justify-center items-center size-7 text-sm font-semibold rounded-full border border-transparent text-gray-800 hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+            data-hs-overlay="#checkout-modal-{{ $index }}">
+            <span class="sr-only">Close</span>
+            <i class="fa fa-close"></i>
+          </button>
+        </div>
+        <form
+          action="#"
+          class="space-y-4 p-4 overflow-y-scroll"
+          style="max-height: 70vh"
+          id="checkout-form-{{ $index }}">
+          <input
+            type="hidden"
+            name="whatsapp_number"
+            value="{{ site.Params.whatsapp.phone_number }}" />
+
+          <input
+            name="category"
+            type="hidden"
+            readonly=""
+            value="{{ $product.Category }}" />
+
+          <input
+            name="product"
+            type="hidden"
+            readonly=""
+            value="{{ $product.Title }}" />
+
+          <input
+            name="variant"
+            type="hidden"
+            readonly=""
+            value="{{ $price.name }}" />
+
+          <input
+            name="qty"
+            type="hidden"
+            readonly=""
+            value="{{ $price.qty }}" />
+          <input name="price" type="hidden" readonly="" value="{{ .price }}" />
+
+          <table>
+            <tr>
+              <td>
+                <label for="category">Jenis Produk</label>
+              </td>
+              <td class="ml-1">
+                <div
+                  name="category"
+                  type="text"
+                  class="border rounded-sm p-1 border-dotted ml-3"
+                  readonly="">
+                  {{ $product.Category }}
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="product">Nama Produk</label>
+              </td>
+              <td>
+                <div
+                  name="product"
+                  type="text"
+                  class="border rounded-sm p-1 border-dotted ml-3"
+                  readonly="">
+                  {{ $product.Title }}
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="variant">Varian</label>
+              </td>
+              <td>
+                <div
+                  name="variant"
+                  type="text"
+                  class="border rounded-sm p-1 border-dotted ml-3"
+                  readonly="">
+                  {{ $price.name }}
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="qty">Qty</label>
+              </td>
+              <td>
+                <div
+                  name="qty"
+                  type="text"
+                  class="border rounded-sm p-1 border-dotted ml-3"
+                  readonly="">
+                  {{ $price.qty }}
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="price">Harga</label>
+              </td>
+              <td>
+                <div
+                  name="price"
+                  type="text"
+                  class="border rounded-sm p-1 border-dotted ml-3"
+                  readonly="">
+                  {{ .price }}
+                </div>
+              </td>
+            </tr>
+          </table>
+        </form>
+
+        <div
+          class="flex justify-end items-center gap-x-2 py-3 px-4 border-t dark:border-gray-700">
+          <button
+            type="button"
+            class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-slate-900 dark:border-gray-700 dark:text-white dark:hover:bg-gray-800 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+            data-hs-overlay="#checkout-modal-{{ $index }}">
+            Tutup
+          </button>
+          <button
+            type="button"
+            onclick="checkout('checkout-form-{{ $index }}')"
+            class="py-2 px-3 inline-flex items-center gap-x-3 text-sm font-semibold rounded-lg border border-transparent bg-green-600 text-white hover:bg-green-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">
+            <i class="fab fa-whatsapp"></i>
+            Checkout via WhatsApp
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}
