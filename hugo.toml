@@ -144,15 +144,14 @@ lazy = true
 link = "plugins/font-awesome/v6/icons.css"
 lazy = true
 [[params.plugins.css]]
-link = "plugins/aos/aos.css"
+link = "https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.css"
 lazy = false
 
 
 # JS Plugins
 [[params.plugins.js]]
-link = "plugins/aos/aos.js"
+link = "https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js"
 lazy = false
-
 [[params.plugins.js]]
 link = "js/search.js"
 lazy = false
