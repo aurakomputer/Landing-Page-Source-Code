@@ -1,0 +1,10 @@
+<div class="bg-body dark:bg-darkmode-body text-center">
+  {{ $image:= .Params.image }}
+  {{ if $image }}
+    {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "mb-6 w-full rounded") }}
+  {{ end }}
+  <h5 class="mb-3">
+    {{ .Title }}
+  </h5>
+  <p class="mb-6 text-sm">{{ .Summary }}</p>
+</div>

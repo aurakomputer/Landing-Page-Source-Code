@@ -7,6 +7,12 @@ url = "/"
 weight = 1
 
 [[main]]
+name = "Portofolio"
+url = "/portofolio"
+weight = 1
+
+
+[[main]]
 name = "Layanan"
 url = "/#services"
 weight = 2

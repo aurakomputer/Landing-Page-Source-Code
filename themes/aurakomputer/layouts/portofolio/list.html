@@ -1,0 +1,45 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+  <div class="container mt-5">
+    <div class="grid grid-cols-12 gap-5 md:gap-8">
+      <div class="md:col-span-6">
+        <div>
+          <div class="bg-white shadow-lg p-5 rounded-md">
+            <p>
+              Aura Komputer telah berhasil mengerjakan bermacam macam project
+              Aplikasi / Software Development dan beberapa IT consultant, dari
+              tahun 2018 sampai hingga sekarang.
+            </p>
+
+            <p class="mt-2">
+              Kami memulai project dari tingkat lokal, SMK Ma'arif NU 1
+              Ajibarang merupakan client pertama kami pada tahun 2018 dan
+              merupakan kunci awal untuk aplikasi aplikasi yang mulai di publish
+              ke publik oleh Aura Komputer
+            </p>
+
+            <p class="mt-2">
+              Terimakasih kami ucapkan pada client-client yang sudah
+              mempercayakan pekerjaan kepada kami. Adapun kekurangan kami akan
+              terus mengevalisai dan meningkatkan diri baik dari sisi technical
+              maupun managerial agar project dapat terdelivery dengan baik
+              <br />
+              Terimakasih
+            </p>
+
+            <p class="mt-5">
+              Regards <br />
+              Aura Komputer
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {{ range .RegularPages }}
+        <div class="md:col-span-3">
+          {{ partial "components/portofolio-card" . }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}
