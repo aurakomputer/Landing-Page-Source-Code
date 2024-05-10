@@ -1,9 +1,9 @@
 {
-  "name": "hugoplate",
-  "description": "hugo tailwindcss boilerplate",
+  "name": "Aura Komputer",
+  "description": "Landing Page AuraKomputer",
   "version": "1.12.2",
   "license": "MIT",
-  "author": "zeon.studio",
+  "author": "aurakomputer.my.id",
   "scripts": {
     "dev": "hugo server",
     "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
