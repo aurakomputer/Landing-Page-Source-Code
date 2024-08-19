@@ -132,7 +132,7 @@ notAlternative = true
 link = "plugins/swiper/swiper-bundle.css"
 lazy = true
 [[params.plugins.css]]
-link = "plugins/glightbox/glightbox.css"
+link = "https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"
 lazy = true
 [[params.plugins.css]]
 link = "plugins/font-awesome/v6/brands.css"
@@ -166,7 +166,7 @@ lazy = false
 link = "plugins/cookie.js"
 lazy = false
 [[params.plugins.js]]
-link = "plugins/glightbox/glightbox.js"
+link = "https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"
 lazy = true
 [[params.plugins.js]]
 link = "js/gallery-slider.js"
