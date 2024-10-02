@@ -57,8 +57,8 @@ show_categories = true
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Aplikasi Desktop", "Aplikasi Website", "Jasa Pembuatan Aplikasi", "Penjualan Aplikasi", "Aplikasi Murh"]
-description = "Hugo & Tailwindcss Starter"
+keywords = ["Aplikasi Desktop", "Aplikasi Website", "Jasa Pembuatan Aplikasi", "Penjualan Aplikasi", "Aplikasi Murah", "Aplikasi Sekolah", "Prakerin", "PPDB"]
+description = "Jasa Pembuatan dan Penjualan Aplikasi terlaris berbasis Web, Desktop, dan Mobile, untuk Instansi Sekolah dan Lain lain"
 author = "Aura Komputer"
 image = "images/og-image.png"
 
