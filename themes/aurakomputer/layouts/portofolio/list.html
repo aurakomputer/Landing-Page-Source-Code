@@ -1,7 +1,7 @@
 {{ define "main" }}
   <div class="container mt-5">
     <div class="grid grid-cols-12 gap-5 md:gap-8">
-      <div class="md:col-span-6" data-aos="fade-up">
+      <div class="col-span-12 md:col-span-6" data-aos="fade-up">
         <div>
           <div class="bg-white shadow-lg p-5 rounded-lg">
             <div class="h3 text-primary">Story of Our Portfolio</div>
@@ -36,7 +36,7 @@
       </div>
 
       {{ range .RegularPages }}
-        <div class="md:col-span-3" data-aos="zoom-in">
+        <div class="col-span-12 md:col-span-3" data-aos="zoom-in">
           {{ partial "components/portofolio-card" . }}
         </div>
       {{ end }}
