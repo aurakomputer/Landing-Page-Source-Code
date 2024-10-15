@@ -2,7 +2,7 @@
 title: "Aplikasi Converter Penjualan"
 description: "AuraKomputer portofolio - Aplikasi Converter Penjualan"
 date: 2024-03-04T05:00:00Z
-image: "images/portofolio/screenshot_20240511-020605.png"
+image: "images/portofolio/screenshot_20240511-020605.webp"
 categories: ["Aplikasi"]
 draft: false
 ---

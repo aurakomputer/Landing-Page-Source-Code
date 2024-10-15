@@ -2,7 +2,7 @@
 title: "Portal SMK Ma'arif NU 1 Ajibarang 2017"
 description: "AuraKomputer portofolio - Portal SMK Ma'arif NU 1 Ajibarang 2017"
 date: 2017-04-04T05:00:00Z
-image: "images/portofolio/portal-smkmanusa.png"
+image: "images/portofolio/portal-smkmanusa.webp"
 categories: ["Aplikasi"]
 draft: false
 ---
