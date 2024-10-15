@@ -6,10 +6,10 @@ category: "Aplikasi"
 price: Rp. 300.000 - Rp. 35.000.000
 rating: 5
 description: "Pengisian formulir online, verifikasi dokumen, dan konfirmasi status pendaftaran secara real-time"
-thumbnail: /sekolahku/galleries/6.png
+thumbnail: /sekolahku/galleries/6.webp
 images:
-  - /sekolahku/galleries/6.png
-  - /sekolahku/galleries/5.png
+  - /sekolahku/galleries/6.webp
+  - /sekolahku/galleries/5.webp
 
 prices:
   - name: Paket Hemat

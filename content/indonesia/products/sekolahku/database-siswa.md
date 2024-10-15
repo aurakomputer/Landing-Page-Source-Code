@@ -5,11 +5,11 @@ tags:
 category: "Aplikasi"
 rating: 5
 description: Solusi terbaik untuk menyimpan, mengakses dan memanage data siswa secara efisien, termasuk data kenaikan kelas
-thumbnail: /sekolahku/galleries/2.png
+thumbnail: /sekolahku/galleries/2.webp
 images:
-  - "/sekolahku/galleries/2.png"
-  - "/sekolahku/galleries/3.png"
-  - "/sekolahku/galleries/4.png"
+  - "/sekolahku/galleries/2.webp"
+  - "/sekolahku/galleries/3.webp"
+  - "/sekolahku/galleries/4.webp"
 
 free: true
 

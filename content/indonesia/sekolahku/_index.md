@@ -8,7 +8,7 @@ description: "One stop solution untuk menyikapi tuntutan perubahan yang mengarah
 banner:
   title: "Sistem Informasi dan Aplikasi Pelayanan sekolah"
   content: "One stop solution untuk menyikapi tuntutan perubahan yang mengarah pada otomasi dan digitalisasi layanan sekolah"
-  image: "/sekolahku/landing.png"
+  image: "/sekolahku/landing.webp"
   buttons:
     - icon: "fa fa-cloud-arrow-down"
       label: "Download"
@@ -18,18 +18,18 @@ banner:
       link: "https://sekolahku.aurakomputer.my.id/login"
 
   clients:
-    - logo: "/images/clients/logo-smkmaarifnu1ajibarang.png"
-      logo_alt: "/images/clients/logo-smkmaarifnu1ajibarang-alt.png"
+    - logo: "/images/clients/logo-smkmaarifnu1ajibarang.webp"
+      logo_alt: "/images/clients/logo-smkmaarifnu1ajibarang-alt.webp"
       name: "SMK Ma'arif NU 1 Ajibarang"
       url: "https://sekolahku.smkmaarifnu1ajibarang.sch.id/"
 
-    - logo: "/images/clients/logo-sman1ajibarang.png"
-      logo_alt: "/images/clients/logo-sman1ajibarang-alt.png"
+    - logo: "/images/clients/logo-sman1ajibarang.webp"
+      logo_alt: "/images/clients/logo-sman1ajibarang-alt.webp"
       name: "SMA Negeri 1 Ajibarang"
       url: "https://sman1ajibarang.sch.id/"
 
-    - logo: "/images/clients/logo-perpus-sman1ajibarang.png"
-      logo_alt: "/images/clients/logo-perpus-sman1ajibarang-alt.png"
+    - logo: "/images/clients/logo-perpus-sman1ajibarang.webp"
+      logo_alt: "/images/clients/logo-perpus-sman1ajibarang-alt.webp"
       name: "Pustaka SMANA"
       url: "https://perpus.sman1ajibarang.sch.id"
 

@@ -51,11 +51,11 @@ author:
     url: "/teams/mohamad-supangat"
 
 technologies:
-  - "/images/icons/Mikrotik-logo.png"
-  - "/images/icons/html5.png"
-  - "/images/icons/css3.png"
-  - "/images/icons/jquery.png"
-  - "/images/icons/vue.png"
-  - "/images/icons/laravel.png"
-  - "/images/icons/quasar.png"
+  - "/images/icons/Mikrotik-logo.webp"
+  - "/images/icons/html5.webp"
+  - "/images/icons/css3.webp"
+  - "/images/icons/jquery.webp"
+  - "/images/icons/vue.webp"
+  - "/images/icons/laravel.webp"
+  - "/images/icons/quasar.webp"
 ---

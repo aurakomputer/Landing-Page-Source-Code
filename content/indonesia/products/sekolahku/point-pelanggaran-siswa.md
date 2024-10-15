@@ -6,13 +6,13 @@ category: "Aplikasi"
 price: Rp. 300.000 - Rp. 35.000.000
 rating: 5
 description: "Mempermudah pencatatan pelanggaran siswa, memantau secara realtime dan riwayat yang mudah di lacak"
-thumbnail: /sekolahku/galleries/7.png
+thumbnail: /sekolahku/galleries/7.webp
 images:
-  - "/sekolahku/galleries/7.png"
-  - "/sekolahku/point-pelanggaran/Screen Shot 2023-03-20 at 15.19.56.png"
-  - "/sekolahku/point-pelanggaran/Screen Shot 2023-03-20 at 15.20.12.png"
-  - "/sekolahku/point-pelanggaran/Screen Shot 2023-03-20 at 15.20.18.png"
-  - "/sekolahku/point-pelanggaran/Screen Shot 2023-03-20 at 15.20.29.png"
+  - "/sekolahku/galleries/7.webp"
+  - "/sekolahku/point-pelanggaran/Screen Shot 2023-03-20 at 15.19.56.webp"
+  - "/sekolahku/point-pelanggaran/Screen Shot 2023-03-20 at 15.20.12.webp"
+  - "/sekolahku/point-pelanggaran/Screen Shot 2023-03-20 at 15.20.18.webp"
+  - "/sekolahku/point-pelanggaran/Screen Shot 2023-03-20 at 15.20.29.webp"
 
 prices:
   - name: Paket Hemat

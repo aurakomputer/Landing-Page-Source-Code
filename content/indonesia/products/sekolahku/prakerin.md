@@ -6,9 +6,9 @@ category: "Aplikasi"
 price: "Rp. 300.000 - Rp. 35.000.000"
 rating: 5
 description: Permudah pemantauan  dan evaluasi kegiatan prakeirn / magang siswa, penilaian kerja dan laporan aktivitas harian
-thumbnail: /sekolahku/galleries/8.png
+thumbnail: /sekolahku/galleries/8.webp
 images:
-  - /sekolahku/galleries/8.png
+  - /sekolahku/galleries/8.webp
 prices:
   - name: Paket Hemat
     qty: 1 Bulan
