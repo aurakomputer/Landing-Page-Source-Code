@@ -7,6 +7,4 @@ categories: ["Aplikasi", "Web", "Portal Web"]
 draft: false
 ---
 
-Portal Resmi Website SMA Negeri 1 Ajibarang sebagai ucapan
-selamat datang kepada pengunjung / masyarakat yang ingin mengenal lebih
-lanjut mengenai _SMK Ma'arif NU 1 AJibarang_
+Portal Resmi Website SMA Negeri 1 Ajibarang, dirancang untuk memudahkan akses informasi dan komunikasi di lingkungan sekolah.
