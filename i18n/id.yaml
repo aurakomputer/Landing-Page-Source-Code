@@ -1,0 +1,32 @@
+- id: home
+  translation: Beranda
+
+- id: read_more
+  translation: Baca Selengkapnya
+
+- id: send
+  translation: Kirim
+
+- id: related_posts
+  translation: Postingan Serupa
+
+- id: categories
+  translation: Kategori
+
+- id: tags
+  translation: Tag
+
+- id: toc
+  translation: Daftar Isi
+
+- id: share
+  translation: Bagikan
+
+- id: search_input_placeholder
+  translation: Cari Postingan ...
+
+- id: no_results_for
+  translation: Tidak ada data ditemukan
+
+- id: empty_search_results_placeholder
+  translation: Ketik sesuatu untuk mencari..
