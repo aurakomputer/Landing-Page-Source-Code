@@ -32,7 +32,3 @@ features = [
 name = "Aura Komputer"
 homepage = "https://github.com/aurakomputer"
 
-[original]
-author = "Zeon Studio"
-homepage = "https://zeon.studio"
-repo = "https://github.com/zeon-studio/themeplate"

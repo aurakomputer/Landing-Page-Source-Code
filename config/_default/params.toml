@@ -22,10 +22,10 @@ mainSections = ["blog"]
 # contact form action
 contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
 # google tag manager, see https://developers.google.com/tag-manager/
-google_tag_manager = "" # example: G-XXXXXXXXXX
+google_tag_manager = "GTM-589JSS3Z" # example: G-XXXXXXXXXX
 custom_script = ""
 # copyright
-copyright = "Aura Komputer - Copyright 2023 &copy; All rights Reserved."
+copyright = "Aura Komputer - Copyright 2025 &copy; All rights Reserved."
 
 [whatsapp]
 phone_number = 6285161748582
@@ -47,7 +47,7 @@ link = "https://s.id/aurakomputer"
 [search]
 enable = true
 primary_color = "#121212"
-include_sections = ["products"]
+include_sections = ["products", "blog"]
 show_image = true
 show_description = true
 show_tags = true
