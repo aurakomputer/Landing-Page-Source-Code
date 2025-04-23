@@ -5,6 +5,7 @@ date: 2023-04-04T05:00:00Z
 image: "images/portofolio/perpus-smana.webp"
 categories: ["Aplikasi"]
 draft: false
+author: "AuraKomputer"
 tags: ["Sekolah", "SMA N 1 Ajibarang"]
 ---
 

@@ -5,6 +5,7 @@ date: 2018-07-04T05:00:00Z
 image: "images/portofolio/2019-07-22_10-41.webp"
 categories: ["Aplikasi"]
 draft: false
+author: "AuraKomputer"
 tags: ["Sekolah", "SMK Ma'arif Ajibarang"]
 ---
 
