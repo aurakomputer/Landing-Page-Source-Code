@@ -12,11 +12,11 @@ url = "/portofolio"
 weight = 1
 
 
-[[main]]
-name = "Layanan"
-url = "/#services"
-weight = 2
-
+# [[main]]
+# name = "Layanan"
+# url = "/#services"
+# weight = 2
+#
 [[main]]
 name = "Produk"
 url = "/products"
