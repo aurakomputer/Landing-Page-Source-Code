@@ -5,6 +5,8 @@ date: 2017-04-04T05:00:00Z
 image: "images/portofolio/portal-smkmanusa.webp"
 categories: ["Aplikasi"]
 draft: false
+author: "AuraKomputer"
+tags: ["Sekolah", "SMK Ma'arif Ajibarang"]
 ---
 
 Portal Resmi Website _SMK Ma'arif NU 1 Ajibarang_ sebagai ucapan
