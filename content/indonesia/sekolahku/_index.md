@@ -33,6 +33,11 @@ banner:
       name: "Pustaka SMANA"
       url: "https://perpus.sman1ajibarang.sch.id"
 
+    - logo: "/images/clients/logo-ponpes-semar.webp"
+      logo_alt: "/images/clients/logo-ponpes-semar-alt.webp"
+      name: "LPI NURUL ISLAM \" PONDOK PESANTREN SEMAR \"."
+      url: "https://sis.nurissemar.net/"
+
 features:
   - icon: "fa fa-mobile-alt"
     title: "Akses dari mana saja"
