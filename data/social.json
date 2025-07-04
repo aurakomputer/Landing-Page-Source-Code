@@ -6,34 +6,24 @@
       "link": "https://wa.me/6285161748582"
     },
     {
-      "name": "Telegram",
-      "icon": "fab fa-telegram",
-      "link": "https://t.me/HantamKoding"
-    },
-    {
       "name": "Gmail",
       "icon": "fa-regular fa-envelope",
-      "link": "mailto:hantamkoding@gmail.com"
+      "link": "mailto:aura.komputer.office@gmail.com"
     },
     {
       "name": "Github",
       "icon": "fab fa-github",
-      "link": "https://github.com/hantamkoding"
+      "link": "https://github.com/aurakomputer"
     },
     {
       "name": "Gitlab",
       "icon": "fab fa-gitlab",
-      "link": "https://gitlab.com/hantamkoding"
+      "link": "https://gitlab.com/aurakomputer"
     },
     {
-      "name": "Twitter",
-      "icon": "fab fa-twitter",
-      "link": "https://twitter.com/MohamadSupangat"
-    },
-    {
-      "name": "Reddit",
-      "icon": "fab fa-reddit",
-      "link": "https://www.reddit.com/user/mohamad-supangat"
+      "name": "Twitter / X",
+      "icon": "fab fa-square-x-twitter",
+      "link": "http://x.com/aurakomputer"
     }
   ]
 }
