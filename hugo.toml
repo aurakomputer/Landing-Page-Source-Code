@@ -135,6 +135,9 @@ lazy = true
 link = "https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"
 lazy = true
 [[params.plugins.css]]
+link = "https://cdn.jsdelivr.net/npm/kk-whatsapp-widget/dist/style.css"
+lazy = true
+[[params.plugins.css]]
 link = "plugins/font-awesome/v6/brands.css"
 lazy = true
 [[params.plugins.css]]
@@ -155,6 +158,10 @@ lazy = false
 [[params.plugins.js]]
 link = "https://cdn.jsdelivr.net/npm/preline@2.0.3/dist/preline.min.js"
 lazy = true
+[[params.plugins.js]]
+link = "https://cdn.jsdelivr.net/npm/kk-whatsapp-widget@latest/dist/index.umd.js"
+lazy = true
+
 
 [[params.plugins.js]]
 link = "js/search.js"

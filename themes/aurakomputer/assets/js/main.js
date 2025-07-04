@@ -112,4 +112,34 @@
       "_blank",
     );
   };
+
+  window.whatsappWidget("#widget-container", {
+    members: [
+      {
+        name: "Customer Support",
+        phone: "+6285161748582",
+        avatar: false,
+        title: "Silahkan hubungi kami jika memerlukan konsultasi",
+        isOnline: true,
+      },
+    ],
+    position: "bottom-right",
+    autoOpen: true,
+    showBranding: false,
+    theme: {
+      brandColors: {
+        primary: "#25d366",
+        secondary: "#128c7e",
+        accent: "#6c5ce7",
+      },
+      typography: {
+        fontFamily: "Inter, system-ui, sans-serif",
+        fontSize: "14px",
+      },
+    },
+    analytics: {
+      enabled: true,
+      events: {},
+    },
+  });
 })();
