@@ -224,11 +224,11 @@
         },
       ],
       analytics: {
-        enabled: true,
+        enabled: false,
         events: {},
       },
       position: "bottom-right",
-      autoOpen: true,
+      autoOpen: false,
       showBranding: false,
       theme: {
         brandColors: {
@@ -242,5 +242,5 @@
         },
       },
     });
-  }, 2000);
+  }, 4000);
 })();
