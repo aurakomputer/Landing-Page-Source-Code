@@ -12,14 +12,17 @@
           online bisnismu, mengoptimalkan jangkauan, dan mendorong konversi.
         </p>
       </div>
-      <div class="md:col-3 text-right">
-        <a
-          target="_blank"
-          class="border-2 px-8 rounded text-md py-2"
-          href="https://s.id/aurakomputer">
-          Hubungi Kami
-        </a>
-      </div>
+      {{ if site.Params.navigation_button.enable }}
+        <div class="md:col-3 text-right">
+          <a
+            class="border-2 px-8 rounded text-md py-2"
+            target="_blank"
+            href="{{ site.Params.navigation_button.link | relLangURL }}">
+            <i class="fab fa-whatsapp mr-2"></i>
+            {{ site.Params.navigation_button.label }}
+          </a>
+        </div>
+      {{ end }}
     </div>
   </div>
 </section>

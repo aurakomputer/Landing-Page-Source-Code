@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Kontak Kami "
-    link: "https://s.id/aurakomputer"
+    link: "https://s.id/whatsapp-aurakomputer"
 
 features:
   - title: "Quality Drive"

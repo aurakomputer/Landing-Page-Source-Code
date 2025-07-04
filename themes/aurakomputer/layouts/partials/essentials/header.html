@@ -98,8 +98,10 @@
       {{ if site.Params.navigation_button.enable }}
         <li class="mt-4 inline-block lg:hidden">
           <a
+            target="_blank"
             class="btn btn-outline-primary btn-sm"
             href="{{ site.Params.navigation_button.link | relLangURL }}">
+            <i class="fab fa-whatsapp mr-2"></i>
             {{ site.Params.navigation_button.label }}
           </a>
         </li>
@@ -128,7 +130,7 @@
           href="{{ site.Params.navigation_button.link | relLangURL }}"
           target="_blank"
           class="btn btn-outline-primary btn-sm hidden lg:inline-block">
-          <i class="fa fa-phone mr-2"></i>
+          <i class="fab fa-whatsapp mr-2"></i>
           <span>{{ site.Params.navigation_button.label }}</span>
         </a>
       {{ end }}
