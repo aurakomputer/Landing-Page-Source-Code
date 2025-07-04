@@ -113,132 +113,134 @@
     );
   };
 
-  window.whatsappWidget("#whatsapp-widget", {
-    businessInfo: {
-      name: "Aura Komputer",
-      tagline:
-        "Jasa Pembuatan dan Penjualan Aplikasi terbaik berbasis Web, Desktop, dan Mobile",
-    },
-    businessHours: {
-      enabled: true,
-      schedule: {
-        mon: {
-          open: "09:00",
-          close: "16:00",
-        },
-        tue: {
-          open: "09:00",
-          close: "16:00",
-        },
-        wed: {
-          open: "09:00",
-          close: "16:00",
-        },
-        thu: {
-          open: "09:00",
-          close: "16:00",
-        },
-        fri: {
-          open: "09:00",
-          close: "16:00",
-        },
+  setTimeout(() => {
+    window.whatsappWidget("#whatsapp-widget", {
+      businessInfo: {
+        name: "Aura Komputer",
+        tagline:
+          "Jasa Pembuatan dan Penjualan Aplikasi terbaik berbasis Web, Desktop, dan Mobile",
       },
-      offlineMessage:
-        "Mohon maaf mungkin response kami sedikit lambat dikarenakan sedang tidak di jam kerja!",
-    },
+      businessHours: {
+        enabled: true,
+        schedule: {
+          mon: {
+            open: "09:00",
+            close: "16:00",
+          },
+          tue: {
+            open: "09:00",
+            close: "16:00",
+          },
+          wed: {
+            open: "09:00",
+            close: "16:00",
+          },
+          thu: {
+            open: "09:00",
+            close: "16:00",
+          },
+          fri: {
+            open: "09:00",
+            close: "16:00",
+          },
+        },
+        offlineMessage:
+          "Mohon maaf mungkin response kami sedikit lambat dikarenakan sedang tidak di jam kerja!",
+      },
 
-    departments: [
-      {
-        id: "sales",
-        name: "Konsultasi",
-        description: "Konsultasi Jasa / Produk, tanya tanya juga boleh",
-        icon: "💰",
-        members: [
-          {
-            id: "mohamad-supangat",
-            name: "Mohamad Supangat",
-            phone: "+6285161748582",
-            avatar:
-              "https://placehold.co/400x400?text=Moha&bg=FF6B6B&color=fff",
-            title: "Sales Manager",
-            skills: ["Layanan Customer", "Konsultasi"],
-            isOnline: true,
-          },
-        ],
-      },
-      {
-        id: "support",
-        name: "Technical Support",
-        description: "Bantuan Support Pelanggan",
-        icon: "🛠️",
-        members: [
-          {
-            id: "mohamad-supangat",
-            name: "Mohamad Supangat",
-            phone: "+6285161748582",
-            avatar:
-              "https://placehold.co/400x400?text=Moha&bg=FF6B6B&color=fff",
-            title: "Senior Developer",
-            skills: ["Pengembang Aplikasi", "Bantuan Teknikal"],
-            isOnline: true,
-          },
-        ],
-      },
-    ],
-    leadCapture: {
-      enabled: true,
-      showBefore: "member-selection",
-      fields: {
-        nama: {
-          required: true,
-          placeholder: "Nama",
+      departments: [
+        {
+          id: "sales",
+          name: "Konsultasi",
+          description: "Konsultasi Jasa / Produk, tanya tanya juga boleh",
+          icon: "💰",
+          members: [
+            {
+              id: "mohamad-supangat",
+              name: "Mohamad Supangat",
+              phone: "+6285161748582",
+              avatar:
+                "https://placehold.co/400x400?text=Moha&bg=FF6B6B&color=fff",
+              title: "Sales Manager",
+              skills: ["Layanan Customer", "Konsultasi"],
+              isOnline: true,
+            },
+          ],
         },
-        sekolah: {
-          required: false,
-          placeholder: "Nama Sekolah / Asal Daerah",
+        {
+          id: "support",
+          name: "Technical Support",
+          description: "Bantuan Support Pelanggan",
+          icon: "🛠️",
+          members: [
+            {
+              id: "mohamad-supangat",
+              name: "Mohamad Supangat",
+              phone: "+6285161748582",
+              avatar:
+                "https://placehold.co/400x400?text=Moha&bg=FF6B6B&color=fff",
+              title: "Senior Developer",
+              skills: ["Pengembang Aplikasi", "Bantuan Teknikal"],
+              isOnline: true,
+            },
+          ],
+        },
+      ],
+      leadCapture: {
+        enabled: false,
+        showBefore: "member-selection",
+        fields: {
+          name: {
+            required: true,
+            placeholder: "Nama",
+          },
+          email: {
+            required: false,
+            placeholder: "Nama Sekolah / Asal Daerah",
+          },
         },
       },
-    },
-    quickMessages: [
-      {
-        category: "general",
-        messages: [
-          {
-            label: "Demo Produk",
-            text: "Saya ingin mencoba demo aplikasi",
-          },
-          {
-            label: "Tanya Harga",
-            text: "Apakah saya boleh tanya harga untuk pembuatan aplikasi ?",
-          },
-          {
-            label: "Bantuan Teknis",
-            text: "Saya butuh bantuan teknis",
-          },
-          {
-            label: "Partner",
-            text: "Saya tertarik untuk menjadi partner",
-          },
-        ],
+      quickMessages: [
+        {
+          category: "general",
+          messages: [
+            {
+              label: "Demo Produk",
+              text: "Saya ingin mencoba demo aplikasi",
+            },
+            {
+              label: "Tanya Harga",
+              text: "Apakah saya boleh tanya harga untuk pembuatan aplikasi ?",
+            },
+            {
+              label: "Bantuan Teknis",
+              text: "Saya butuh bantuan teknis",
+            },
+            {
+              label: "Partner",
+              text: "Saya tertarik untuk menjadi partner",
+            },
+          ],
+        },
+      ],
+      analytics: {
+        enabled: true,
+        events: {},
       },
-    ],
-    analytics: {
-      enabled: true,
-      events: {},
-    },
-    position: "bottom-right",
-    autoOpen: true,
-    showBranding: false,
-    theme: {
-      brandColors: {
-        primary: "#25d366",
-        secondary: "#128c7e",
-        accent: "#6c5ce7",
+      position: "bottom-right",
+      autoOpen: true,
+      showBranding: false,
+      theme: {
+        brandColors: {
+          primary: "#25d366",
+          secondary: "#128c7e",
+          accent: "#6c5ce7",
+        },
+        typography: {
+          fontFamily: "Inter, system-ui, sans-serif",
+          fontSize: "14px",
+        },
       },
-      typography: {
-        fontFamily: "Inter, system-ui, sans-serif",
-        fontSize: "14px",
-      },
-    },
-  });
+    });
+  }, 2000);
 })();
