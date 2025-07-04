@@ -92,9 +92,9 @@
 
   // back to top
   // --------------------------------------------------
-  document.querySelector(".back-to-top").onclick = () => {
-    scrollTo(document.documentElement);
-  };
+  // document.querySelector(".back-to-top").onclick = () => {
+  //   scrollTo(document.documentElement);
+  // };
 
   const selectPaket = document.getElementsByClassName("selectPaket");
 
