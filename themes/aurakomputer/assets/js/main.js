@@ -113,16 +113,119 @@
     );
   };
 
-  window.whatsappWidget("#widget-container", {
-    members: [
+  window.whatsappWidget("#whatsapp-widget", {
+    businessInfo: {
+      name: "Aura Komputer",
+      tagline:
+        "Jasa Pembuatan dan Penjualan Aplikasi terbaik berbasis Web, Desktop, dan Mobile",
+    },
+    businessHours: {
+      enabled: true,
+      schedule: {
+        mon: {
+          open: "09:00",
+          close: "16:00",
+        },
+        tue: {
+          open: "09:00",
+          close: "16:00",
+        },
+        wed: {
+          open: "09:00",
+          close: "16:00",
+        },
+        thu: {
+          open: "09:00",
+          close: "16:00",
+        },
+        fri: {
+          open: "09:00",
+          close: "16:00",
+        },
+      },
+      offlineMessage:
+        "Mohon maaf mungkin response kami sedikit lambat dikarenakan sedang tidak di jam kerja!",
+    },
+
+    departments: [
       {
-        name: "Customer Support",
-        phone: "+6285161748582",
-        avatar: false,
-        title: "Silahkan hubungi kami jika memerlukan konsultasi",
-        isOnline: true,
+        id: "sales",
+        name: "Konsultasi",
+        description: "Konsultasi Jasa / Produk, tanya tanya juga boleh",
+        icon: "💰",
+        members: [
+          {
+            id: "mohamad-supangat",
+            name: "Mohamad Supangat",
+            phone: "+6285161748582",
+            avatar:
+              "https://placehold.co/400x400?text=Moha&bg=FF6B6B&color=fff",
+            title: "Sales Manager",
+            skills: ["Layanan Customer", "Konsultasi"],
+            isOnline: true,
+          },
+        ],
+      },
+      {
+        id: "support",
+        name: "Technical Support",
+        description: "Bantuan Support Pelanggan",
+        icon: "🛠️",
+        members: [
+          {
+            id: "mohamad-supangat",
+            name: "Mohamad Supangat",
+            phone: "+6285161748582",
+            avatar:
+              "https://placehold.co/400x400?text=Moha&bg=FF6B6B&color=fff",
+            title: "Senior Developer",
+            skills: ["Pengembang Aplikasi", "Bantuan Teknikal"],
+            isOnline: true,
+          },
+        ],
       },
     ],
+    leadCapture: {
+      enabled: true,
+      showBefore: "member-selection",
+      fields: {
+        nama: {
+          required: true,
+          placeholder: "Nama",
+        },
+        sekolah: {
+          required: false,
+          placeholder: "Nama Sekolah / Asal Daerah",
+        },
+      },
+    },
+    quickMessages: [
+      {
+        category: "general",
+        messages: [
+          {
+            label: "Demo Produk",
+            text: "Saya ingin mencoba demo aplikasi",
+          },
+          {
+            label: "Tanya Harga",
+            text: "Apakah saya boleh tanya harga untuk pembuatan aplikasi ?",
+          },
+          {
+            label: "Bantuan Teknis",
+            text: "Saya butuh bantuan teknis",
+          },
+          {
+            label: "Partner",
+            text: "Saya tertarik untuk menjadi partner",
+          },
+        ],
+      },
+    ],
+    analytics: {
+      enabled: true,
+      events: {},
+    },
     position: "bottom-right",
     autoOpen: true,
     showBranding: false,
@@ -136,10 +239,6 @@
         fontFamily: "Inter, system-ui, sans-serif",
         fontSize: "14px",
       },
-    },
-    analytics: {
-      enabled: true,
-      events: {},
     },
   });
 })();
